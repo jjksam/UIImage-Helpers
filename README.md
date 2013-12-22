@@ -29,13 +29,13 @@ You will need LLVM 3.0 or later in order to build UIImage-Helpers.
 * Add a pod entry for UIImage-Helpers to your Podfile:
 
 ```
-`pod 'UIImage-Helpers', '~> 0.0.1'`
+pod 'UIImage-Helpers', '~> 0.0.1'
 ```
 
 * Install the pod(s) by running:
 
 ```
-`pod install`
+pod install
 ```
 
 ### Source files
