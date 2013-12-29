@@ -1,4 +1,4 @@
-#UIImage-Helpers
+#UIImage-Helpers ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 Create a blurred images, take a screenshot, make a image with color...
 
