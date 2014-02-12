@@ -46,10 +46,14 @@
     
     if (!error) {
         error = vImageBoxConvolve_ARGB8888(&outBuffer, &inBuffer, NULL, 0, 0, boxSize, boxSize, NULL, kvImageEdgeExtend);
-
-        if (!error) {
-            error = vImageBoxConvolve_ARGB8888(&inBuffer, &outBuffer, NULL, 0, 0, boxSize, boxSize, NULL, kvImageEdgeExtend);
-        }
+    }
+    
+    if (error) {
+#ifdef DEBUG
+        NSLog(@"%s error: %zd", __PRETTY_FUNCTION__, error);
+#endif
+        
+        return self;
     }
     
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
