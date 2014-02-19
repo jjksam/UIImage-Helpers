@@ -94,5 +94,3 @@ This code is distributed under the terms and conditions of the [MIT license](LIC
 A brief summary of each UIImage-Helpers release can be found on the [wiki](https://github.com/NZN/UIImage-Helpers/wiki/Change-log).
 
 ## To-do Items
-
-- Submit pull request to [Cocoa/Specs](https://github.com/CocoaPods/Specs)
