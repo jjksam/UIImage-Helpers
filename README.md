@@ -9,6 +9,7 @@ Create a blurred images, take a screenshot, make a image with color...
 [![Build Status](https://api.travis-ci.org/NZN/UIImage-Helpers.png)](https://api.travis-ci.org/NZN/UIImage-Helpers.png)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/UIImage-Helpers/badge.png)](http://beta.cocoapods.org/?q=UIImage-Helpers)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/p/UIImage-Helpers/badge.png)](http://beta.cocoapods.org/?q=UIImage-Helpers)
+[![Analytics](https://ga-beacon.appspot.com/UA-48753665-1/NZN/UIImage-Helpers/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ## Requirements
 
