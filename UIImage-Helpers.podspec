@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'UIImage-Helpers'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.license = 'MIT'
   s.summary = 'UIImage category. Create a blurred images, take a screenshot, make a image with color...'
   s.homepage = 'https://github.com/NZN/UIImage-Helpers'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   
   s.ios.frameworks = 'Accelerate', 'QuartzCore'  
   s.source_files = 'UIImage-Helpers/*.{h,m}'
-  s.source = { :git => 'https://github.com/NZN/UIImage-Helpers.git', :tag => '0.0.2' }
+  s.source = { :git => 'https://github.com/NZN/UIImage-Helpers.git', :tag => '0.0.3' }
 end
