@@ -49,6 +49,8 @@
     }
     
     if (error) {
+        free(pixelBuffer);
+        CFRelease(inBitmapData);
 #ifdef DEBUG
         NSLog(@"%s error: %zd", __PRETTY_FUNCTION__, error);
 #endif
